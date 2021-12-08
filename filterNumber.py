@@ -7,6 +7,3 @@ def filterNumber(numbers):
     return result
 
 #print(filterNumber([3,2,1,2,1,4,6,5,7,8,8,9,2]))
-
-
-
