@@ -15,10 +15,9 @@ def checkSelfNumber(bil):
 
 def totalSelfNumberBelow200():
     selfNumbers = []
-    for i in range(1, 201):
+    for i in range(1, 200):
         if(checkSelfNumber(i)):
             selfNumbers.append(i)
     return len(selfNumbers)
 
 #print(totalSelfNumberBelow200())
-
